@@ -2,7 +2,7 @@ name : welcome to GitHub Actions
 on : 
   push :
     branches :
-    -  master
+    -  main
 jobs :
   ubuntu :
     runs-on : ubuntu-lates
