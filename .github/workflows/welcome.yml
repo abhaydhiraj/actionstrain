@@ -9,3 +9,9 @@ jobs :
     steps :
     - uses: actions/checkout@v3
     - run: date
+  ubuntu2 :
+    needs: ubuntu
+    runs-on : ubuntu-latest
+    steps : 
+    - uses : actions/checkout@v2
+    - run : whomai
