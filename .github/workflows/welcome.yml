@@ -1,0 +1,11 @@
+name : welcome to GitHub Actions
+on : 
+  push :
+    branches :
+    -  master
+jobs :
+  ubuntu :
+    runs-on : ubuntu-lates
+    steps :
+    - uses: actions/checkout@v3
+    - run: date
